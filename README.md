@@ -1,38 +1,22 @@
-# create-svelte
+# Kanji Recongition Test
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Overview
 
-## Creating a project
+This is a small application that I built for myself to visualize my kanji knowledge. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation
 
+1. Clone the project
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/AlpaarX/kanji-recognition
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+2. Go to project directory
+3. Inside project, run
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+4. When the server is up, access the link shown after running the command above
 
-## Building
+## Usage
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+When user launches the app, first kanji and basic controls are shown. Controls consist of next, previous kanji, know and don't know buttons. Also there is a save kanji button (heart emoji) at the right-top corner.
